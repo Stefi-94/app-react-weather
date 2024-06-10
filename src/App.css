@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+.AfterGio{
+  margin:0 auto;
+  display:-webkit-flex;
+  display:-moz-flex;
+  display:-ms-flex;
+  display:flex;
+  -webkit-flex-direction:row;
+  flex-direction:row;
+  -webkit-justify-content:center;
+  justify-content:center;
+}
+.GiorniCons{
+  margin:20px;
+  float:left;
+}
