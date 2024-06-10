@@ -91,6 +91,7 @@ export default function Weather(props){
 
 
             </div>
+            <p><a href="https://github.com/Stefi-94/app-react-weather">opensource - github</a></p>
             
         </div>
     );
