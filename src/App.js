@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <h1>Weather</h1>
       <Search />
-      <After />
+     
 
     </div>
   );
