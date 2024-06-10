@@ -33,7 +33,7 @@ export default function After(props){
     return( 
     <span class="GiorniCons">
         {days[day]}<br></br>
-        <img src={icon}></img> <br></br>
+        <img src={icon} alt="icona-meteo"></img> <br></br>
         {tempMax}  {tempMin}<br></br>
     </span>)
 }
