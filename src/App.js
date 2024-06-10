@@ -1,6 +1,5 @@
-import Weather from './Weather.js';
+
 import Search from './Search.js';
-import After from './After';
 import './App.css';
 
 

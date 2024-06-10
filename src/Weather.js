@@ -55,11 +55,10 @@ export default function Weather(props){
     let first={icon:"", tempMax:12,tempMin:0};
     //array che riempe di informazioni per i giorni successivi
     //solo icona e temperatura
-    let [second,setSecond]=useState(0);
+ 
     function forecastDay(response){
        
-        setSecond(Math.round(response.data.daily.temp));
-
+      
         first.temp=response.data.daily[0].temp;
         first.icon="http://openweathermap.org/img/w/" +
         response.data.weather[0].icon +
@@ -78,7 +77,7 @@ export default function Weather(props){
                     Humidity: <span>{humidity}</span>, Wind: <span>{wind}km/h</span></p>
             </div>
             <div class="Temp">
-                <h1><img src={icon} alt="icon-weather" /> {temperature}°C</h1>
+                <h1><img src={icon} alt="icon-weather" title="img-meteo"/> {temperature}°C</h1>
             </div>
          
             <div class="AfterGio" >
@@ -91,7 +90,7 @@ export default function Weather(props){
 
 
             </div>
-            <p><a href="https://github.com/Stefi-94/app-react-weather">opensource - github</a></p>
+            <p><a href="https://github.com/Stefi-94/app-react-weather" alt="github code">opensource - github</a></p>
             
         </div>
     );
